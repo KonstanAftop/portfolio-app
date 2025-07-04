@@ -1,0 +1,5 @@
+[theme]
+primaryColor = "#1E90FF"               # Dodger Blue (tombol, highlight)
+backgroundColor = "#F0F8FF"            # Alice Blue (latar utama)
+secondaryBackgroundColor = "#FFFFFF"   # Putih (untuk sidebar/kartu)
+textColor = "#1A1A1A"                  # Abu gelap (teks utama)

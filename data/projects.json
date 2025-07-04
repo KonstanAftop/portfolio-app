@@ -1,0 +1,47 @@
+[
+  {
+    "nama": "SuaTalk",
+    "tipe": "Team Project (ML Engineer)",
+    "genre": "Deep Learning for Audio",
+    "deskripsi": "SuaTalk is a mobile web application designed to assist new parents by analyzing their baby's cry in real time. The platform allows users to upload or record audio of their baby crying, which is then processed and classified by a machine learning model trained to recognize different causes of crying—such as hunger, discomfort, pain, or the need for attention. Based on the classification result, the app provides personalized and practical treatment suggestions, helping parents respond more effectively and with greater confidence.",
+    "tools": ["TensorFlow", "Flask", "Pandas", "Numpy", "Google Vertex AI"],
+    "gambar": "portfolio.jpg",
+    "github": "https://github.com/Sua-Talk",
+    "kontribusi": [
+      "Improved the baby cry classification model’s accuracy to 91%, enhancing its reliability in detecting various causes of crying.",
+      "Handled imbalanced audio datasets and experimented with different ANN architectures and hyperparameters.",
+      "Collaborated with a backend engineer to deploy the trained model into a production-ready web application for real-time usage.",
+      "Integrated model predictions into fine-tuned generative AI prompts using Google Vertex AI to generate personalized care recommendations.",
+      "Gained valuable experience in cross-functional collaboration and AI deployment."
+    ]
+  },
+  {
+    "nama": "Rain Classifier - WCPL ITB",
+    "tipe": "Personal Project",
+    "genre": "Automation",
+    "deskripsi": "Rain Classifier is a Python-based automation tool that classifies rainfall intensity (light, moderate, heavy, or no rain) from WCPL model forecast maps using pixel-level color extraction. Developed to support weather forecast verification, the tool automates what was once a manual, repetitive process of interpreting spatial rainfall forecasts from images.",
+    "tools": ["Python", "OpenCV", "PIL", "Pandas", "GitHub Actions"],
+    "gambar": "portfolio.jpg",
+    "github": "https://github.com/KonstanAftop/Rain-Classifier-WCPL-ITB ",
+    "kontribusi": [
+      "Initiated and developed the tool to automate the detection of rainfall categories from forecast maps using color thresholding.",
+      "Solved inefficiencies in a weather verification course by automating pixel-based rainfall classification from spatial weather forecast images.",
+      "Deployed the tool via a GitHub Actions cron job for daily automated execution, reducing manual workload by up to 50% and improving consistency.",
+      "Designed the system to support research workflows in meteorology with minimal overhead and reproducible output."
+    ]
+  },
+  {
+    "nama": "PM2.5 HAQAST Downloader GUI",
+    "tipe": "Personal Project",
+    "genre": "Graphical User Interface (GUI)",
+    "deskripsi": "Designed a user-friendly graphical interface to download PM2.5 pollutant data from the HAQAST data portal. The tool aims to democratize access to air quality data for users who do not have a programming background.",
+    "tools": ["requests", "tkinter"],
+    "gambar": "portfolio.jpg",
+    "github": "https://github.com/KonstanAftop/PM2.5-HAQAST-DOWNLOADER-GUI",
+    "kontribusi": [
+      "Created a GUI-based downloader to simplify the process of obtaining PM2.5 data from the HAQAST platform.",
+      "Designed with a focus on accessibility for non-programmers such as students, researchers, and policymakers.",
+      "Built and tested the tool end-to-end independently to support data accessibility in environmental research and policy analysis."
+    ]
+  }
+]
