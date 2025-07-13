@@ -18,11 +18,18 @@ def show():
         st.image("assets/nc.jpg")
     with col2:
         st.markdown("""
-        <h3>Konstan Aftop</h3>
-        <p><strong>Data Scientist / Machine Learning Engineer</strong><br>
-        📍 Bandung, Indonesia<br>
-        📧 konstanaftopds@gmail.com<br>
-        🔗 <a href="https://www.linkedin.com/in/konstanaftop25/" target="_blank">LinkedIn</a></p>
+        <h3>👋 Konstan Aftop</h3>
+<p>
+  💼 <strong>Data Scientist / Machine Learning Engineer</strong><br>
+  🎓 Undergraduate Student at Institut Teknologi Bandung<br>
+  🌤️ Major: Meteorology<br>
+  💻 Minor: Data Science and Artificial Intelligence<br>
+  📍 Location: Bandung, Indonesia<br>
+  📧 Email: konstanaftopds@gmail.com<br>
+  🔗 <a href="https://www.linkedin.com/in/konstanaftop25/" target="_blank">LinkedIn Profile</a>
+</p>
+
+
         """, unsafe_allow_html=True)
 
     st.markdown("---")
@@ -40,10 +47,28 @@ def show():
     with col4:
         st.markdown("### 🧰 Skills")
         st.markdown("""
-        - Python, scikit-learn, TensorFlow  
-        - LangChain, Flask, Streamlit  
-        - Git, Linux
+    **Programming & Tools:** Python, Git, Linux, Jupyter Notebook<br>
+    **Data Processing & Analysis:** NumPy, Pandas, Xarray, BeautifulSoup<br>
+    **Machine Learning & AI:** scikit-learn, TensorFlow, NLP<br>
+    **Frameworks & Deployment:** Flask, Streamlit, LangChain
+    """, unsafe_allow_html=True)
+
+        st.markdown("### 🌍 Activities & Programs")
+        st.markdown("""
+    - **The Life Programme 2024** - Universiti Sains Malaysia  
+    Joined a 2-week immersive program focused on sustainability, practical living labs, innovative thinking, and youth empowerment.  
+
+    - **Regen Asia Summit 2025** - National University of Singapore  
+    Participated in a regional sustainability summit, engaging in workshops on climate action, circular economy, and regenerative solutions.
         """)
+        st.markdown("### 🏆 Honors & Awards")
+        st.markdown("""
+                    - Best Poster Award at the 6th ITB International Graduate School Conference (IGSC 2025)
+                    - Top 10 Winner of Zencore Legends on Misi Agustusan Zenius 2021
+                    """)
+
+
+
 
     st.markdown("---")
 

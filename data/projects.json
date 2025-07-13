@@ -3,12 +3,12 @@
     "nama": "SuaTalk",
     "tipe": "Team Project (ML Engineer)",
     "genre": "Deep Learning for Audio",
-    "deskripsi": "SuaTalk is a mobile web application designed to assist new parents by analyzing their baby's cry in real time. The platform allows users to upload or record audio of their baby crying, which is then processed and classified by a machine learning model trained to recognize different causes of crying—such as hunger, discomfort, pain, or the need for attention. Based on the classification result, the app provides personalized and practical treatment suggestions, helping parents respond more effectively and with greater confidence.",
+    "deskripsi": "SuaTalk is a mobile web application designed to assist new parents by analyzing their baby's cry in real time. The platform allows users to upload or record audio of their baby crying, which is then processed and classified by a machine learning model trained to recognize different causes of crying-such as hunger, discomfort, pain, or the need for attention. Based on the classification result, the app provides personalized and practical treatment suggestions, helping parents respond more effectively and with greater confidence.",
     "tools": ["TensorFlow", "Flask", "Pandas", "Numpy", "Google Vertex AI"],
-    "gambar": "portfolio.jpg",
+    "gambar": "SuaTalk.png",
     "github": "https://github.com/Sua-Talk",
     "kontribusi": [
-      "Improved the baby cry classification model’s accuracy to 91%, enhancing its reliability in detecting various causes of crying.",
+      "Improved the baby cry classification model's accuracy to 91%, enhancing its reliability in detecting various causes of crying.",
       "Handled imbalanced audio datasets and experimented with different ANN architectures and hyperparameters.",
       "Collaborated with a backend engineer to deploy the trained model into a production-ready web application for real-time usage.",
       "Integrated model predictions into fine-tuned generative AI prompts using Google Vertex AI to generate personalized care recommendations.",
@@ -21,8 +21,8 @@
     "genre": "Automation",
     "deskripsi": "Rain Classifier is a Python-based automation tool that classifies rainfall intensity (light, moderate, heavy, or no rain) from WCPL model forecast maps using pixel-level color extraction. Developed to support weather forecast verification, the tool automates what was once a manual, repetitive process of interpreting spatial rainfall forecasts from images.",
     "tools": ["Python", "OpenCV", "PIL", "Pandas", "GitHub Actions"],
-    "gambar": "portfolio.jpg",
-    "github": "https://github.com/KonstanAftop/Rain-Classifier-WCPL-ITB ",
+    "gambar": "rain.png",
+    "github": "https://github.com/KonstanAftop/Rain-Classifier-WCPL-ITB",
     "kontribusi": [
       "Initiated and developed the tool to automate the detection of rainfall categories from forecast maps using color thresholding.",
       "Solved inefficiencies in a weather verification course by automating pixel-based rainfall classification from spatial weather forecast images.",
@@ -36,12 +36,107 @@
     "genre": "Graphical User Interface (GUI)",
     "deskripsi": "Designed a user-friendly graphical interface to download PM2.5 pollutant data from the HAQAST data portal. The tool aims to democratize access to air quality data for users who do not have a programming background.",
     "tools": ["requests", "tkinter"],
-    "gambar": "portfolio.jpg",
+    "gambar": "gui.jpg",
     "github": "https://github.com/KonstanAftop/PM2.5-HAQAST-DOWNLOADER-GUI",
     "kontribusi": [
       "Created a GUI-based downloader to simplify the process of obtaining PM2.5 data from the HAQAST platform.",
       "Designed with a focus on accessibility for non-programmers such as students, researchers, and policymakers.",
       "Built and tested the tool end-to-end independently to support data accessibility in environmental research and policy analysis."
+    ]
+  },
+  {
+    "nama": "Gojek Driver Sentiment Analysis",
+    "tipe": "Personal Project",
+    "genre": "NLP",
+    "deskripsi": "This project performs sentiment analysis on reviews of the Gojek driver application from the Play Store to gauge driver satisfaction with the app and the company. The analysis revealed that 65% of the reviews were negative, 20% were positive, and the remaining 15% were neutral.",
+    "tools": ["TensorFlow", "NLTK", "regex", "Sastrawi"],
+    "gambar": "gojek.png",
+    "github": "https://github.com/KonstanAftop/proyek-analisis_sentimen_gojek_driver",
+    "kontribusi": [
+      "Executed comprehensive data cleaning, including case folding, symbol removal, slang normalization, and stopword removal.",
+      "Manually labeled the review data to create a ground truth dataset for supervised learning.",
+      "Developed and compared both classical machine learning (Logistic Regression, Linear SVC with TF-IDF and CountVectorizer) and deep learning (GRU) models to classify sentiment."
+    ]
+  },
+  {
+    "nama": "ETL Pipeline for Product Data",
+    "tipe": "Personal Project",
+    "genre": "Data Engineering, ETL, Web Scraping",
+    "deskripsi": "An ETL (Extract, Transform, Load) pipeline was developed to manage product data for further analysis. The pipeline works by scraping product data from a source, transforming it into a clean and ready-to-use format, and then loading it into multiple destinations: a CSV file, Google Sheets, and a PostgreSQL database.",
+    "tools": ["postgresql", "beautifulsoup", "requests", "regex"],
+    "gambar": "ETL.png",
+    "github": "https://github.com/KonstanAftop/proyek-ETL_pipeline",
+    "kontribusi": [
+      "Built an extraction utility using BeautifulSoup to scrape web data.",
+      "Created a transformation utility to handle data cleaning and preparation.",
+      "Developed a loading utility to save the processed data into a CSV file, Google Sheets, and a PostgreSQL database.",
+      "Implemented unit tests for all pipeline utilities to ensure reliability and facilitate bug detection."
+    ]
+  },
+  {
+    "nama": "Movie Recommendation System",
+    "tipe": "Personal Project",
+    "genre": "NLP, Recommender Systems",
+    "deskripsi": "This project implements a movie recommendation system using two distinct approaches: Collaborative Filtering and Content-Based Filtering. The goal is to help users discover movies they are likely to enjoy based on their past behavior and movie similarities.",
+    "tools": ["TensorFlow", "NLTK", "regex", "Sastrawi"],
+    "gambar": "movie.png",
+    "github": "https://github.com/KonstanAftop/proyek-sistem_rekomendasi",
+    "kontribusi": [
+      "Conducted Exploratory Data Analysis (EDA) on user ratings and movie data to understand underlying patterns.",
+      "Performed data preprocessing to prepare the dataset for model training.",
+      "Implemented a content-based filtering model using cosine similarity and a collaborative filtering model using a deep learning-based RecommenderNet."
+    ]
+  },
+  {
+    "nama": "Air Quality Data Analysis Dashboard",
+    "tipe": "Personal Project",
+    "genre": "Data Analysis, Dashboard",
+    "deskripsi": "An interactive dashboard for analyzing air pollutant data from various monitoring stations in China.",
+    "tools": ["Streamlit", "Pandas", "Numpy", "Seaborn"],
+    "gambar": "air.png",
+    "github": "https://github.com/KonstanAftop/proyek-analisis_data_kualitas_udara",
+    "kontribusi": [
+      "Conducted a data analysis of air pollution across multiple stations in China.",
+      "Developed and deployed an interactive dashboard using Streamlit to the Streamlit Community Cloud, enabling public access to the findings."
+    ]
+  },
+  {
+    "nama": "Customer Segmentation for Beverage Sales",
+    "tipe": "Personal Project",
+    "genre": "Machine Learning, Clustering, Unsupervised Learning",
+    "deskripsi": "This project focuses on segmenting beverage customers using clustering algorithms. Subsequently, a machine learning model is trained to predict the cluster for new customers.",
+    "tools": ["scikit-learn"],
+    "gambar": "customer.png",
+    "github": "https://github.com/KonstanAftop/proyek-machine_learning",
+    "kontribusi": [
+      "Performed Exploratory Data Analysis (EDA) to gain insights into the customer dataset.",
+      "Executed thorough data preprocessing steps, including handling missing values, duplicates, normalization, outlier treatment, feature encoding, and binning."
+    ]
+  },
+  {
+    "nama": "Nino 3.4 Index Prediction Using Deep Learning",
+    "tipe": "Personal Project",
+    "genre": "Deep Learning, Climate, Machine Learning",
+    "deskripsi": "The ENSO phenomenon is a key factor influencing rainfall in Indonesia, making the Nino index crucial for predicting El Nino and La Nina events. This project predicts the Nino 3.4 index using a deep learning approach.",
+    "tools": ["TensorFlow"],
+    "gambar": "nino.png",
+    "github": "https://github.com/KonstanAftop/proyek-prediksi_regresi",
+    "kontribusi": [
+      "Conducted EDA and prepared the time-series data using a sliding window technique.",
+      "Developed and compared predictive models using both Random Forest and Long Short-Term Memory (LSTM) algorithms."
+    ]
+  },
+  {
+    "nama": "Scientific Image Classification",
+    "tipe": "Personal Project",
+    "genre": "Image Classification",
+    "deskripsi": "This project involves classifying scientific images into their respective biological fields.",
+    "tools": ["TensorFlow"],
+    "gambar": "img.png",
+    "github": "https://github.com/KonstanAftop/proyek-klasifikasi_gambar",
+    "kontribusi": [
+      "Prepared and augmented the image dataset to improve model robustness.",
+      "Developed and trained an image classification model to categorize the images."
     ]
   }
 ]
